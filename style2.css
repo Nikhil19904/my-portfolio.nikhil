@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+ #home{
+    background: yellow;
+    height:100vh;
+   }
+.navbar ul li{
+    display:inline;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px;
+    margin-top:40px;
+    cursor:pointer;
+    font-size:22px;
+}
+html::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+  html::-webkit-scrollbar-track {
+    background: rgb(235, 202, 245);
+  }
+  html::-webkit-scrollbar-thumb {
+    background: green;
+  }
+.navbar ul{
+    margin-left:120px;
+    padding:20px;
+}
+.navbar{
+    background: #011aff;
+}
+.navbar ul li:hover{
+    color:red;
+}
+image-can{
+    background-color:blue;
+}
+.bat{
+    background: #fff;
+    width:84vw;
+    height:76vh;
+    text-align:center;
+    margin-left: 120px;
+    margin-top:35px;
+    border-radius: 10px;
+    border-style: 1px solid red;
+}
+.bin{
+   margin-top:20px;
+}
+.bat:hover{
+    transform: scale(1.03);
+box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+}
+.image-can img{
+    margin-top: 90px;
+    border-style: double;
+    border-radius: 35px;
+}
+.tag{
+    margin-top:14px;
+    font-size: 60px;
+    padding:9px;
+    font-weight: 700;
+     font-family: 'Roboto', sans-serif;
+    color: darkorange;
+}
+.article{
+    margin-left: 327px;
+    margin-right: 300px;
+    color:darkblue;
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+.btn button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    background:lawngreen;
+    border-color:lawngreen ;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:17px;
+    margin-top: 20px;
+}
+.btn button:hover{
+    background: #012970;
+}
+h1{
+    text-align:center;
+    background:blue;
+    padding-right:14px;
+    padding-left: 14px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin-right: 450px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-left: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*about section starts here*/
+#about{
+    background:yellow;
+    height:100vh;
+}
+#about .image-box{
+    margin-left:580px;
+    margin-right:535px;
+    margin-top:40px;
+    margin-bottom:20px;
+    padding-top:64px;
+}
+#about .image-box img{
+    margin-top: 20px;
+    border-radius:20px;
+    border-style:groove;
+    
+}
+ h2{
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkcyan
+ }
+ .box-content p{
+    margin-top:25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color:red;
+    font-style:bolder;
+    font-weight: 500;
+    font-size:17px ;
+ }
+ .box-container .box p{
+    display: block;
+    text-align: center;
+    margin-left: 127px;
+    padding:10px;
+ }
+ .box-container .box{
+    text-align: center;
+    margin-left: 30px;
+    font-family: "Nunito";
+ }
+ .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem;
+    font-family: "Nunito";
+    font-weight: 600;
+    text-align: center;
+    margin-left:150px;
+    border:2px solid black;
+    border-radius: 5px;;
+    margin-right: 147px;
+ }
+  .box-container .box p span {
+    color: #011aff;
+ }
+ .logo{
+    background: #fff;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 70px;
+    border-radius: 8px;
+    height:72vh;
+ }
+ .logo:hover{
+    transform: scale(1.03);
+box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+ }
+ /*edcation section starts here */
+ .education {
+    background:yellow;
+    height:100vh;
+    width:100vw;
+ }
+ .education .qoute {
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    color:red;
+ }
+ .education .box-data {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .education .box-data .bog {
+display: flex;
+flex-direction: row;
+width: 80%;
+border-radius: 0.5rem;
+box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+text-align: center;
+position: relative;
+margin-top: 2rem;
+overflow: hidden;
+transition: 0.3s;
+background: aqua;
+height:20vh;
+}
+.education .box-data .bog:hover {
+transform: scale(1.03);
+box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+}
+.education .box-data .bog .image {
+flex: 1 1 20rem;
+width: 80%;
+}
+.education .box-data .bog img {
+object-fit: cover;
+position: relative;
+width: 100%;
+height: 100%;
+}
+.education .box-data .bog .content-box {
+position: relative;
+display: flex;
+flex-direction: column;
+padding: 0.7rem;
+flex-wrap: wrap;
+flex: 1 1 70rem;
+}
+.education .box-data .bog .content-box h4 {
+font-size: 2rem;
+color: #012970;
+padding: 0.5rem 0;
+font-weight: 600;
+text-align: left;
+margin-left: 0.7rem;
+}
+.education .box-data .bog .content-box p {
+font-size: 1.1rem;
+margin-left: 0.7rem;
+text-align: left;
+}
+.education h5 {
+font-size: 1rem;
+color: rgb(34, 109, 0);
+text-align: left;
+margin: 0.1rem;
+font-family: "Nunito", sans-serif;
+font-weight: 700;
+}
+.box-para{
+background: #fff;
+margin-left:90px ;
+margin-right:90px ;
+padding-bottom: 85px;
+border-radius: 8px;
+margin-top:30px;
+}
+@media screen and (max-width: 600px) {
+.education .box-container .box {
+flex-direction: column;
+width: 100%;
+}
+.education .box-data .bog .image {
+width: 100%;
+height: 20rem;
+}
+.education .box-data .bog img {
+width: 100%;
+}
+.education .box-data .bog .content-box {
+position: relative;
+display: flex;
+flex-direction: column;
+padding: 0.5rem;
+flex-wrap: wrap;
+flex: 0;
+}
+.education .btns {
+margin-top: 2rem;
+margin-left: 1rem;
+margin-right: 1rem;
+flex-wrap: wrap;
+}
+}
+.heading1 h4{
+text-align: center;
+background:red;
+padding:8px;
+margin-left: 330px;
+margin-right: 330px;
+color:white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*education section ends here*/
+/*skill section starts here*/
+#skills{
+    height:100vh;
+    background:yellow;
+}
+h1{
+    text-align:center;
+    background:blue;
+    padding-right:14px;
+    padding-left: 14px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin-right: 450px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-left: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.images{
+    margin-left: 280px;
+    margin-top:70px;
+    font-size: 50px;
+    margin-right: 240px;
+    border-style:groove;
+}
+.image-tag{
+    padding:15px;
+    margin-bottom: 30px;
+}
+.image-map{
+    padding: 10px;
+    margin-right: 40px;
+}
+.max-width{
+    margin-top: 20px;
+    background: #fff;
+    height:74vh;
+    padding-top:20px;
+    padding-bottom: 35px;
+    margin-left:90px;
+    margin-right:90px;
+    border-radius: 11px;
+}
+.auto{
+width: 83vw;
+height:82vh;
+background: #fff;
+border-radius: 1.5rem;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+margin-top: 0rem;
+margin-left:7rem ;
+margin-right: 3rem;
+margin-bottom: 2rem;
+}
+/*skills section ends here*/
+/*contact section starts here*/
+.contact {
+    background: yellow;
+    min-height: 90vh;
+  }
+  .contact .container {
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    border-radius: 1.5rem;
+    margin: 4rem 5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+   .contact .content form {
+      width: 100%;
+      margin-right: 2rem;
+    }
+    .auto-graph{
+      display: flex;
+    }
+    .button-area{
+      display: flex;
+    }
+    .image-box{
+      margin-top: 37px;
+    
+      margin-left: 100px;
+    }
+    .contact-form .field{
+      margin-left: 40px;
+      
+    }
+   
+    
+      
+    
+    .field {
+      margin-left:95px;
+      margin-top: 30px;
+      
+      
+    }
+    .message{
+      margin-left:95px;
+      margin-top: 30px;
+      
+    }
+ .field input:focus,
+.message textarea:focus {
+padding-left: 47px;
+border: 2px solid rgb(115, 3, 167);
+}
+    form .message textarea::-webkit-scrollbar {
+      width: 0px;
+    }
+    .message textarea{
+      padding:14px 251px 119px 17px;
+      font-size: 16px;
+      font-size: 16px;
+font-family: "Poppins", sans-serif;
+border-radius: 5px;
+border: 1px solid rgb(51, 51, 51);
+background: #e5ecfb;
+      
+      
+      
+    }
+    form .button-area {
+      display: flex;
+      float: right;
+      flex-direction: row-reverse;
+    }
+    .field input{
+      padding:14px 239px 14px 17px;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      border-radius: 5px;
+      border: 1px solid rgb(51, 51, 51);
+      background: #e5ecfb;
+    }
+    .button-area button {
+      color: #fff;
+      border: none;
+      outline: none;
+      font-size: 1.3rem;
+      cursor: pointer;
+      border-radius: 5px;
+      padding: 10px 20px;
+      background: #2506ad;
+      box-shadow: 0px 5px 10px rgba(15, 15, 15, 0.6);
+      transition: 0.3s ease;
+      font-family: "Nunito", sans-serif;
+    }
+    .button-area button:hover {
+      background: #421cecf5;
+    }
+    .button-area{
+      margin-left: 957px;
+    }
+    .button-area span {
+      font-size: 17px;
+      padding: 1rem;
+      display: none;
+    }
+    .button-area button i {
+      position: relative;
+      top: 3px;
+      left: 2px;
+      font-size: 1.2rem;
+      transition: 0.3s;
+      color: #fff;
+    }
+    .field input::placeholder,
+.message textarea::placeholder {
+  color: rgb(51, 51, 51);
+}
+form i {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  color: rgb(51, 51, 51);
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+.field input:focus,
+.message textarea:focus {
+  padding-left: 47px;
+  border: 2px solid rgb(115, 3, 167);
+}
+.field input:focus ~ i,
+.message textarea:focus ~ i {
+  color: rgb(115, 3, 167);
+}
+ .button-area button:hover i {
+      left: 8px;
+    }
+    @media (max-width: 900px) {
+      .contact {
+        min-height: 70vh;
+      }
+      .contact .container {
+        margin: 3rem 0 2rem 0;
+      }
+      .contact .container .content {
+        padding: 18px 12px;
+      }
+      .contact .content .image-box {
+        display: none;
+      }
+      .contact .content form {
+        width: 100%;
+        margin-right: 2rem;
+      }
+    }
+  
+/* contact section media queries ends */
+/* contact section ends */
+/*footer section starts here*/
+.linkedin{
+  background: white;
+  margin-left: 10px;
+  border-radius: 6px;
+  padding-left:4px;
+  padding-right: 4px;
+  }
+  .footer{
+      background: #011aff;
+      padding:15px;
+  }
+  /*footer section starts here*/
+  /* scroll top starts */
+#scroll-top {
+  position: fixed;
+  top: -140%;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  background: #ffae00;
+  color: rgb(13, 0, 44);
+  border-radius: 50%;
+  transition: 1s linear;
+  z-index: 1000;
+}
+#scroll-top.active {
+  top: calc(100% - 12rem);
+}
+/* scroll top ends */
